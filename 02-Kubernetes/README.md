@@ -24,3 +24,4 @@ A Pod is the smallest deployable unit in Kubernetes.
 | **Cluster** | Whole Kubernetes system         | Control plane + many nodes  | Manage and orchestrate apps | City      |
 | **Node**    | A single machine in the cluster | Pods (via Kubelet, runtime) | Provides resources for apps | Building  |
 | **Pod**     | Smallest deployable unit        | One or more containers      | Runs the actual app         | Apartment |
+![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/3438d52eb840d4268dd51040a79bb9e40cfc3ca8/02-Kubernetes/Components%20k8s.png)
