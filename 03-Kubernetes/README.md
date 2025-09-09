@@ -54,3 +54,4 @@ Connects Kubernetes with cloud provider APIs (AWS, GCP, Azure).
 - Kube-Proxy = Receptionist (routes calls/traffic).
 - Container Runtime = Work Desk & Tools (needed to do the job).
 - Pods = Employees (the actual workers running your applications)
+![Image Alt](
