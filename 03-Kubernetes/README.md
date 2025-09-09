@@ -49,7 +49,7 @@ Connects Kubernetes with cloud provider APIs (AWS, GCP, Azure).
 - Analogy:
     - The Employees themselves.
     - Each Pod = one worker (or a small team of workers) doing the actual job.
-#Summary: Worker Node Components in Analogy
+# Summary: Worker Node Components in Analogy
 - Kubelet = Team Leader (ensures workers do their tasks).
 - Kube-Proxy = Receptionist (routes calls/traffic).
 - Container Runtime = Work Desk & Tools (needed to do the job).
