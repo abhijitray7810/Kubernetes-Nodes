@@ -29,3 +29,27 @@ Connects Kubernetes with cloud provider APIs (AWS, GCP, Azure).
   - Analogy: The Team Leader on the ground.
        - Takes instructions from management (Control Plane).
        - Makes sure employees (containers) are doing their jobs.
+2. Kube-Proxy
+- What it does:
+
+   - Manages network traffic inside the node.
+   - Forwards requests to the right Pod.
+   - Provides load balancing between Pods.
+
+-Analogy:
+   - The Office Receptionist / Switchboard Operator.
+   - Directs phone calls (network requests) to the correct employee (Pod).
+3. Container Runtime
+- What it does:
+  - The actual software that runs containers (Docker, containerd, CRI-O, etc.).
+- Analogy:
+  - The Work Desk & Tools employees use.
+  - Without a desk/tools (runtime), employees (containers) can’t work.
+4. Pods
+- What it does:
+    - The smallest deployable unit in Kubernetes.
+    - Wraps one or more containers that work together.
+
+- Analogy:
+    - The Employees themselves.
+    - Each Pod = one worker (or a small team of workers) doing the actual job.
