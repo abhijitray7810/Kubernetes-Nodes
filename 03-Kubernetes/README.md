@@ -17,3 +17,4 @@ Examples: Node Controller, ReplicaSet Controller.
 
 - Cloud Controller Manager ☁️ (optional)
 Connects Kubernetes with cloud provider APIs (AWS, GCP, Azure).
+![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/0cef167ccd1a7f700aea16ae310920beea7320f3/03-Kubernetes/Master-Com.png)
