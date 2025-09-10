@@ -13,6 +13,9 @@ A Node in Kubernetes is a worker machine (physical server or virtual machine) wh
 Each node is part of a cluster.
 - Nodes are managed by the Control Plane.
 - A cluster can have many nodes to handle scaling and resilience.
+- Is the smallest unit of computing hardware in Kubernetes.
+- Encapsulates One or more application as containers.
+![Image Alt](
 👉 Think of a Kubernetes cluster as a factory, and each Node is a worker in that factory.
 # What is a Pod in Kubernetes?
 A Pod is the smallest deployable unit in Kubernetes.
