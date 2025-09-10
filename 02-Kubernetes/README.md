@@ -8,19 +8,22 @@ It is made up of:
 Purpose: Provides a unified platform to run, scale, and manage containerized applications.
 👉 Analogy: A cluster is like a company.
 When you deploy Kubernetes, you get a Cluster.
-# what is a Nodes(Minions/Server)?
+# what is a Node(Minions/Server)?
 A Node in Kubernetes is a worker machine (physical server or virtual machine) where your application workloads (Pods) run.
 Each node is part of a cluster.
 - Nodes are managed by the Control Plane.
 - A cluster can have many nodes to handle scaling and resilience.
 - Is the smallest unit of computing hardware in Kubernetes.
 - Encapsulates One or more application as containers.
-![Image Alt](
+![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/f34c657a43af825148e3391d9b4e7b7e80309637/02-Kubernetes/Pods.png)
 👉 Think of a Kubernetes cluster as a factory, and each Node is a worker in that factory.
-# What is a Pod in Kubernetes?
+# What is a Pods in Kubernetes?
 A Pod is the smallest deployable unit in Kubernetes.
 - It runs one or more containers together with shared network and storage.
 - Kubernetes creates, scales, and heals Pods automatically.
+- Are assigned a unique IP address(Private)
+- Are ephemeral by nature
+- Are assigned a new ip on recreation.
 # The differences between Cluster, Node, and Pod in Kubernetes (K8s).
 | Concept     | What it is                      | Contains                    | Purpose                     | Analogy   |
 | ----------- | ------------------------------- | --------------------------- | --------------------------- | --------- |
