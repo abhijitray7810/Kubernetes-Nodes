@@ -6,7 +6,7 @@
     # External: Service is created to allow external users to access the containerized application        in pods.
     # Internal: Service restrict the communication within the cluster.
     - There are three type of Service types are ClusterIP, NodePort & LoadBalancer.
-
+![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/01bd708930760fb0c16b514c21e2ded900f3e391/04-Kubernetes/Ingrase.png)
   # ingress:
     - Is an API objects that allows access to your Kubernetes service from outside the cluster.
     - Is completely independent to your service.
