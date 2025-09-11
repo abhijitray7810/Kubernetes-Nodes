@@ -81,6 +81,7 @@ minikube service local-nginx
 
 # 🧹 Cleanup (Optional)
 
+![image Alt](
  - Delete the resources when you’re done:
 ```bash
 kubectl delete service local-nginx
