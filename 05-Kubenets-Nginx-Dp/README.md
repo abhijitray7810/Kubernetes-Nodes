@@ -87,7 +87,7 @@ minikube service local-nginx
 kubectl delete service local-nginx
 kubectl delete deployment local-nginx
 ```
-![image Alt](
+![image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/c60b31b415e0d014f51328438272680128d1fd42/05-Kubenets-Nginx-Dp/Delete.png)
 
 ✅ Summary
 
