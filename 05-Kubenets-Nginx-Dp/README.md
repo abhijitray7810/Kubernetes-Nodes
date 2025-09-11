@@ -56,6 +56,8 @@ minikube dashboard
 ```bash
 kubectl expose deployment local-nginx --port=80 --type=LoadBalancer
 ```
+![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/7b1cd99bdaec376f0ab11d939fd9b5c6b1e11897/05-Kubenets-Nginx-Dp/Port.png)
+
 - --port=80 → the service will listen on port 80
 - --type=LoadBalancer → makes the app accessible outside the cluster
 
