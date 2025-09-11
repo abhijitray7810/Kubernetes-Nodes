@@ -81,12 +81,14 @@ minikube service local-nginx
 
 # 🧹 Cleanup (Optional)
 
-![image Alt](
+![image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/1621429b03ee3ece44a3fc17a882cae9614d1ca4/05-Kubenets-Nginx-Dp/Svc.png)
  - Delete the resources when you’re done:
 ```bash
 kubectl delete service local-nginx
 kubectl delete deployment local-nginx
 ```
+![image Alt](
+
 ✅ Summary
 
 - Created an NGINX deployment
