@@ -20,6 +20,7 @@ minikube start
 ```bash
 kubectl create deployment local-nginx --image=nginx:latest
 ```
+![Image Alt](
 ✔️ This creates a deployment named local-nginx.
 
 2️⃣ Check Deployment
