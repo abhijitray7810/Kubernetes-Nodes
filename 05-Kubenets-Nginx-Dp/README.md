@@ -21,6 +21,7 @@ minikube start
 kubectl create deployment local-nginx --image=nginx:latest
 ```
 ![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/90e57540e4ca48853094892a82ae4de6d8516403/05-Kubenets-Nginx-Dp/Create%20Dp.png)
+
 ✔️ This creates a deployment named local-nginx.
 
 2️⃣ Check Deployment
@@ -30,6 +31,7 @@ kubectl create deployment local-nginx --image=nginx:latest
 kubectl get deployment
 ```
 ![Image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/2fd42d168237b091dfb1d5594a71c39c02035267/05-Kubenets-Nginx-Dp/Get%20Dp.png)
+
 3️⃣ Get Pods
 
 - Check the pod(s) created by the deployment:
