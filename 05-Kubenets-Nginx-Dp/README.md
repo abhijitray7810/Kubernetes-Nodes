@@ -38,6 +38,8 @@ kubectl get deployment
 ```bash
 kubectl get pods
 ```
+![image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/55ec6728ce46da956d9dc9df2d5174bec0f75254/05-Kubenets-Nginx-Dp/Get%20Pods.png)
+
 ✔️ Pods are the smallest deployable units in Kubernetes.
 
 4️⃣ Open Minikube Dashboard
