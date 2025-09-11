@@ -11,8 +11,8 @@ This repository demonstrates how to deploy and expose an **NGINX web server** on
 
 Start Minikube:
 ```bash
-minikube start```
-
+minikube start 
+```
 🛠 Steps to Deploy NGINX
 1️⃣ Create Deployment
 
