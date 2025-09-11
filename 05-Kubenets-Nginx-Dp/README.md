@@ -65,7 +65,7 @@ kubectl expose deployment local-nginx --port=80 --type=LoadBalancer
 ```bash
 kubectl get service
 ```
-![image Alt](
+![image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/baf8c7cc255612f46a77fdde9026032506442635/05-Kubenets-Nginx-Dp/Get%20Service.png)
 
 7️⃣ Access NGINX in Browser
 
