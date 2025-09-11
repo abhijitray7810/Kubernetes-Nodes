@@ -13,12 +13,12 @@ Start Minikube:
 ```bash
 minikube start 
 ```
-🛠 Steps to Deploy NGINX
+## 🛠 Steps to Deploy NGINX
 1️⃣ Create Deployment
 
-Create a deployment that runs the latest NGINX image:
+- Create a deployment that runs the latest NGINX image:
 ```bash
 kubectl create deployment local-nginx --image=nginx:latest
-
+```
 
 ✔️ This creates a deployment named local-nginx.
