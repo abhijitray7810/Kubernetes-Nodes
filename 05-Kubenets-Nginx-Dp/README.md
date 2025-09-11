@@ -75,6 +75,8 @@ kubectl get service
 ```bash
 minikube service local-nginx
 ```
+![image Alt](https://github.com/abhijitray7810/Kubernetes-Notes/blob/93147adc9be093527f4c4e7bb508273f2ca636e2/05-Kubenets-Nginx-Dp/Service.png)
+
 ✔️ You should see the NGINX welcome page 🎉
 
 # 🧹 Cleanup (Optional)
